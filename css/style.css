@@ -10,3 +10,7 @@
 }
 
 /* Style */
+.card{
+  margin: 20px 10px;
+  height: 500px;
+}
