@@ -23,15 +23,11 @@
     <h1>Dischi</h1>
     <div class="row">
       <div class="col card" v-for="(item, index) in dischi" :key="index">
-
-                <img :src="item.poster" :alt="item.title" />
-                <h3 class="title-card">{{item.title}}</h3>
-                <div class="text-card">{{item.author}}</div>
-                <div class="text-card">{{item.genre}}</div>
-                <div class="text-card">{{item.year}}</div>
-        
-    
-
+          <img :src="item.poster" :alt="item.title" />
+          <h3 class="title-card">{{item.title}}</h3>
+          <div class="text-card">{{item.author}}</div>
+          <div class="text-card">{{item.genre}}</div>
+          <div class="text-card">{{item.year}}</div>
       </div> <!-- /col -->
     </div> <!-- /row -->
   </main>
